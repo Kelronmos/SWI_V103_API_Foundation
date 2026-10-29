@@ -4,12 +4,22 @@
 
 Rust-oriented **historical / experimental** API slice (older “V1.03” naming).
 
+> **GitHub About field:** must match this status. See [docs/GITHUB_ABOUT_TEXT.md](docs/GITHUB_ABOUT_TEXT.md). Do not describe this repo as a governance-ready production API.
+
 ## Discipline
 
 ```text
 Claim → Implementation → Test → Result → Limitation
 TESTED ≠ SEALED ≠ PRODUCTION READY
+NAMED ≠ IMPLEMENTED ≠ TESTED ≠ PROVEN ≠ SEALED ≠ AUTHORIZED ≠ PRODUCTION_AUTHORIZED
 ```
+
+| Ceiling | Value |
+|---------|--------|
+| PROVEN | **NO** |
+| SEALED | **NO** |
+| AUTHORIZED | **NO** |
+| PRODUCTION_AUTHORIZED | **NO** |
 
 | Doc | Purpose |
 |-----|---------|
@@ -17,6 +27,7 @@ TESTED ≠ SEALED ≠ PRODUCTION READY
 | [docs/LIMITATIONS.md](docs/LIMITATIONS.md) | Open gaps |
 | [docs/CONNECTION_REQUIREMENTS.md](docs/CONNECTION_REQUIREMENTS.md) | Real V1/V2 link requirements |
 | [docs/ARCHITECTURE_POSITION.md](docs/ARCHITECTURE_POSITION.md) | Generational map |
+| [docs/GITHUB_ABOUT_TEXT.md](docs/GITHUB_ABOUT_TEXT.md) | Required public About wording |
 
 ## In this repository
 
