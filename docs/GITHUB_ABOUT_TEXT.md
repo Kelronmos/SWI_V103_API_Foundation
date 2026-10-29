@@ -1,20 +1,34 @@
 # GitHub repository About field
 
-**Problem:** The GitHub *About* description still claimed a governance-ready production API layer, which contradicts this repository’s README (LEGACY / STUB).
+**Issue:** The public repository description previously presented this project as a governance-ready production API layer. That description is inconsistent with the repository’s documented status (legacy / experimental stub) and with the active SWI V1 and V2 codepaths.
 
-**Required About description** (paste into GitHub → Settings → General → Description):
+## Recommended About description
 
-```text
-LEGACY/STUB — historical experimental API slice. Not the active SWI V1/V2 path. PRODUCTION_AUTHORIZED=NO.
-```
-
-Shorter alternative (≤350 chars):
+Paste into **GitHub → Settings → General → Description**:
 
 ```text
-LEGACY/STUB experimental SWI API slice (V1.03 naming). Not active foundation. Not production-authorized.
+Legacy experimental SWI API prototype (historical V1.03 naming). Not the active V1/V2 foundation; not production-authorized.
 ```
 
-Do **not** use wording such as “governance-ready”, “security middleware”, “audit trails”, or “scalable system integration” in About until those are implemented, tested, and separately authorized.
+### Alternatives
+
+**Concise:**
+
+```text
+Historical SWI API experiment. Superseded by the active V1 and V2 repositories; not production-authorized.
+```
+
+**With pointer:**
+
+```text
+Archived experimental API slice for Structured Workflow Intelligence. Active work: SWI-V1-Module-1-10 and SWI-V2-Modules-11-22.
+```
+
+## Guidance
+
+Use neutral, factual language. Avoid marketing claims such as “governance-ready,” “production-grade,” “enterprise security middleware,” or “complete audit trails” unless those capabilities are implemented, tested, and separately authorized.
+
+Governance ceilings for this repository remain:
 
 ```text
 PROVEN = NO
